@@ -8,25 +8,33 @@
         <title>Document</title>
     </head>
     <body>
-        <div class="left">
-            <img src="./img/logo.svg" alt="logo" class="logo" />
-            <div class="left__content">
-                <h1 class="left__title">
-                    <span class="span__title">We're</span> coming soon
-                </h1>
-                <p class="left__text">
-                    Hello fellow shoppers! We're currently building our new
-                    fashion store. Add your email below to stay up-to-date with
-                    announcements and our launch deals.
-                </p>
-                <form action="" method="get">
-                    <div class="form-group">
-                        <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email Address"
-                            class="form-control"
+        <img src="./img/logo.svg" alt="logo" class="logo__two" />
+        <div class="content">
+            <div class="left">
+                <img src="./img/logo.svg" alt="logo" class="logo" />
+                <div class="left__content">
+                    <h1 class="left__title">
+                        <span class="span__title">We're</span> coming soon
+                    </h1>
+                    <p class="left__text">
+                        Hello fellow shoppers! We're currently building our new
+                        fashion store. Add your email below to stay up-to-date
+                        with announcements and our launch deals.
+                    </p>
+                    <form action="" method="get" class="form">
+                        <div class="form-group">
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Email Address"
+                                class="form-control"
+                            />
+                        </div>
+                        <img
+                            src="./img/icon-error.svg"
+                            alt="error-img"
+                            class="error__icon"
                         />
                         <button type="button" class="request__btn">
                             <img
@@ -35,16 +43,11 @@
                                 class="btn__icon"
                             />
                         </button>
-                    </div>
-                </form>
+                    </form>
+                    <p class="error__message">Please provide a valid email</p>
+                </div>
             </div>
-        </div>
-        <div class="right">
-            <img
-                src="./img/hero-desktop.jpg"
-                alt="picture-women"
-                class="right__img"
-            />
+            <div class="right"></div>
         </div>
 
         <script src="./js/main.js"></script>
